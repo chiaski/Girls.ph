@@ -1,0 +1,17 @@
+/* Variables */
+
+$color: #000;
+
+body {
+    background: $color;
+}
+
+box {
+    display: block;
+    max-width: 100%;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    display: flex;
+    box-sizing: border-box;
+}
