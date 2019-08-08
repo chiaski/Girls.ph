@@ -1,4 +1,5 @@
 /* Variables */
+/* Main */
 body {
   background: #000;
 }
@@ -11,6 +12,9 @@ box {
   justify-content: center;
   display: flex;
   box-sizing: border-box;
+}
+box img {
+  max-width: 100%;
 }
 
 /*# sourceMappingURL=main.css.map */

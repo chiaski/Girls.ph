@@ -2,6 +2,9 @@
 
 $color: #000;
 
+
+/* Main */
+
 body {
     background: $color;
 }
@@ -14,4 +17,8 @@ box {
     justify-content: center;
     display: flex;
     box-sizing: border-box;
+
+    img {
+        max-width: 100%;
+    }
 }
