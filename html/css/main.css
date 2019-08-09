@@ -1,4 +1,5 @@
 /* Variables */
+@import url("https://use.typekit.net/dxs8pao.css");
 /* Main */
 body {
   background: g;
@@ -6,7 +7,7 @@ body {
 
 .container {
   position: absolute;
-  min-width: 100%;
+  width: 100%;
   height: 100%;
   top: 0;
   left: 0;
@@ -14,6 +15,8 @@ body {
 
 .box {
   background-color: yellow;
+  position: relative;
+  overflow-x: hidden;
   display: block;
   width: 100%;
   top: 0;
@@ -29,6 +32,16 @@ body {
 }
 .box img {
   max-width: 100%;
+}
+
+.footer {
+  padding: 1em;
+  box-sizing: border-box;
+}
+.footer h1 {
+  font-size: 16px;
+  font-family: titling-gothic-fb, sans-serif;
+  color: #f4e9e9;
 }
 
 /*# sourceMappingURL=main.css.map */
