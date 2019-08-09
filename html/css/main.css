@@ -1,6 +1,17 @@
 /* Variables */
 @import url("https://use.typekit.net/dxs8pao.css");
 /* Main */
+html,
+*,
+body {
+  cursor: url("../img/cursor.png"), default;
+}
+
+::selection {
+  background: #211e1d;
+  color: #f5b7ba;
+}
+
 body {
   background: g;
 }
