@@ -50,8 +50,56 @@ body {
 #landing p.intro {
   font-size: 1.6em;
   line-height: 1.4em;
-  max-width: 80%;
+  width: 80%;
+  max-width: 600px;
   margin: auto;
+  padding: 2em 0;
+  text-align: center;
+}
+
+#landing a.subscribe {
+  background: whitesmoke;
+  color: #5a5a5a;
+  text-shadow: 0 0 15px whitesmoke;
+  padding: 0.5em;
+  display: inline-block;
+  margin: auto;
+  background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+  background-size: 1800% 1800%;
+  -webkit-animation: rainbow 18s ease infinite;
+  -z-animation: rainbow 18s ease infinite;
+  -o-animation: rainbow 18s ease infinite;
+  animation: rainbow 18s ease infinite;
+  -webkit-transition: all 0.4s linear;
+  -moz-transition: all 0.4s linear;
+  -ms-transition: all 0.4s linear;
+  -o-transition: all 0.4s linear;
+  transition: all 0.4s linear;
+}
+
+#landing a.subscribe:hover {
+  background: #5a5a5a;
+  color: whitesmoke;
+  transform: translateY(2px);
+}
+
+#landing .girlz {
+  max-width: 90%;
+  width: 500px;
+  display: block;
+}
+
+#landing li {
+  max-width: 600px;
+  width: 80%;
+}
+
+#landing a.subscribe {
+  text-align: center;
+}
+
+#love {
+  margin: 7vh 1em 1em 1em;
   text-align: center;
 }
 
@@ -62,6 +110,63 @@ body {
 .footer h1 {
   font-size: 16px;
   color: #f4e9e9;
+}
+
+.wrapper {
+  height: 100%;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+  background-size: 1800% 1800%;
+}
+
+@-webkit-keyframes rainbow {
+  0% {
+    background-position: 0% 82%;
+  }
+  50% {
+    background-position: 100% 19%;
+  }
+  100% {
+    background-position: 0% 82%;
+  }
+}
+@-moz-keyframes rainbow {
+  0% {
+    background-position: 0% 82%;
+  }
+  50% {
+    background-position: 100% 19%;
+  }
+  100% {
+    background-position: 0% 82%;
+  }
+}
+@-o-keyframes rainbow {
+  0% {
+    background-position: 0% 82%;
+  }
+  50% {
+    background-position: 100% 19%;
+  }
+  100% {
+    background-position: 0% 82%;
+  }
+}
+@keyframes rainbow {
+  0% {
+    background-position: 0% 82%;
+  }
+  50% {
+    background-position: 100% 19%;
+  }
+  100% {
+    background-position: 0% 82%;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
