@@ -13,7 +13,8 @@ body {
 }
 
 body {
-  background: lightgray;
+  background: whitesmoke;
+  color: #5a5a5a;
   font-family: neue-haas-unica, sans-serif;
 }
 
@@ -47,7 +48,7 @@ body {
 }
 
 #landing p.intro {
-  font-size: 2em;
+  font-size: 1.6em;
   line-height: 1.4em;
   max-width: 80%;
   margin: auto;
