@@ -38,14 +38,16 @@ body {
 .container {
     position: absolute;
     width: 100%;
+    min-height:100% !important;
     top: 0;
     left: 0;
+    box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
+    overflow-x:hidden;
 }
 
 .box {
-    position: relative;
     width: 100%;
     top:0;
     display: flex;
@@ -72,7 +74,6 @@ hr{
 
 #landing{
     height:100vh;
-    margin:2em 0;
 }
 
 #landing p.intro{
