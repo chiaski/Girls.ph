@@ -1,5 +1,4 @@
 /* Variables */
-@import url("https://use.typekit.net/alj0jkd.css");
 /* Main */
 html,
 *,
@@ -16,7 +15,7 @@ body {
   overflow-x: hidden;
   background: whitesmoke;
   color: #5a5a5a;
-  font-family: neue-haas-unica, sans-serif;
+  font-family: "Apple Garamond";
 }
 
 .container {
@@ -25,11 +24,13 @@ body {
   top: 0;
   left: 0;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .box {
   position: relative;
   width: 100%;
+  top: 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -55,23 +56,26 @@ hr {
 }
 
 #landing p.intro {
-  font-size: 1.6em;
-  line-height: 1.4em;
+  font-size: 2.6em;
+  line-height: 1em;
   width: 80%;
   max-width: 600px;
   margin: auto;
   padding: 2em 0;
+  font-family: "Apple Garamond";
   text-align: center;
 }
 
 #landing a.subscribe {
-  background: #5a5a5a;
-  color: whitesmoke;
   text-decoration: none;
   padding: 0.5em;
   display: inline-block;
   margin: auto;
-  background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+  font-size: 1.4em;
+  background: -webkit-linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-style: italic;
   background-size: 1800% 1800%;
   -webkit-animation: rainbow 18s ease infinite;
   -z-animation: rainbow 18s ease infinite;
@@ -106,7 +110,14 @@ hr {
 
 #love {
   margin: 7vh 1em 1em 1em;
+  font-family: "Apple Garamond";
   text-align: center;
+}
+
+.faq {
+  font-family: "Apple Garamond";
+  text-align: center;
+  font-style: italic;
 }
 
 .footer {
@@ -173,6 +184,30 @@ hr {
   100% {
     background-position: 0% 82%;
   }
+}
+@font-face {
+  font-family: "Apple Garamond";
+  src: url("AppleGaramond-Bold.woff2") format("woff2"), url("AppleGaramond-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Apple Garamond";
+  src: url("AppleGaramond-BoldItalic.woff2") format("woff2"), url("AppleGaramond-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Apple Garamond";
+  src: url("AppleGaramond.woff2") format("woff2"), url("AppleGaramond.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Apple Garamond";
+  src: url("AppleGaramond-Italic.woff2") format("woff2"), url("AppleGaramond-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
 }
 
 /*# sourceMappingURL=main.css.map */
