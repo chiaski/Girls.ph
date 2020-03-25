@@ -78,7 +78,6 @@ body {
 #landing a.subscribe{
     background: $bg;
     color: $text;
-    text-shadow: 0 0 15px $bg;
     padding:.5em;
     display: inline-block;
     margin:auto;
@@ -97,7 +96,6 @@ transition: all .4s linear;
 }
 
 #landing a.subscribe:hover{
-    background: $text;
     color: $bg;
     transform: translateY(2px);
 }

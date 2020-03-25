@@ -60,7 +60,6 @@ body {
 #landing a.subscribe {
   background: whitesmoke;
   color: #5a5a5a;
-  text-shadow: 0 0 15px whitesmoke;
   padding: 0.5em;
   display: inline-block;
   margin: auto;
@@ -78,7 +77,6 @@ body {
 }
 
 #landing a.subscribe:hover {
-  background: #5a5a5a;
   color: whitesmoke;
   transform: translateY(2px);
 }
