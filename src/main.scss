@@ -27,6 +27,7 @@ body {
 }
 
 body {
+    overflow-x: hidden;
     background: $bg;
     color: $text;
     font-family: neue-haas-unica, sans-serif;
@@ -38,12 +39,11 @@ body {
     width: 100%;
     top: 0;
     left: 0;
+    display: flex;
 }
 
 .box {
     position: relative;
-    overflow-x: hidden;
-    height:auto;
     width: 100%;
     display: flex;
     align-items: center;
@@ -51,6 +51,7 @@ body {
     box-sizing: border-box;
 
     .box-center {
+        margin:auto;
         align-items: center;
         justify-content: center;
     }
@@ -60,8 +61,14 @@ body {
     }
 }
 
+hr{
+    border:0;
+    color:0;
+}
+
 
 #landing{
+    height:100vh;
     margin:2em 0;
 }
 
@@ -76,8 +83,9 @@ body {
 }
 
 #landing a.subscribe{
-    background: $bg;
-    color: $text;
+    background: $text;
+    color: $bg;
+    text-decoration: none;
     padding:.5em;
     display: inline-block;
     margin:auto;
