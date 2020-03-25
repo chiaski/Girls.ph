@@ -1,5 +1,5 @@
 /* Variables */
-@import url("https://use.typekit.net/dxs8pao.css");
+@import url("https://use.typekit.net/alj0jkd.css");
 /* Main */
 html,
 *,
@@ -13,25 +13,22 @@ body {
 }
 
 body {
-  background: g;
+  background: lightgray;
+  font-family: neue-haas-unica, sans-serif;
 }
 
 .container {
   position: absolute;
   width: 100%;
-  height: 100%;
   top: 0;
   left: 0;
 }
 
 .box {
-  background-color: yellow;
   position: relative;
   overflow-x: hidden;
-  display: block;
+  height: auto;
   width: 100%;
-  top: 0;
-  left: 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -45,13 +42,24 @@ body {
   max-width: 100%;
 }
 
+#landing {
+  margin: 2em 0;
+}
+
+#landing p.intro {
+  font-size: 2em;
+  line-height: 1.4em;
+  max-width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
 .footer {
   padding: 1em;
   box-sizing: border-box;
 }
 .footer h1 {
   font-size: 16px;
-  font-family: titling-gothic-fb, sans-serif;
   color: #f4e9e9;
 }
 
