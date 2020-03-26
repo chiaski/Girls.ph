@@ -158,8 +158,36 @@ transition: all .4s linear;
     }
 }
 
-.newsletter{
+.newsletter *{
+    display: inline;
+}
+
+.newsletter h2{
+    display: block;
+    margin:.5em;
+    padding:0;
+}
+
+.newsletter input[type="email"]{
+    padding:.5em;
+    width:80%;
+    max-width:250px;
+    display: inline-block;
+    color: #000;
+}
+
+.newsletter input[type="submit"]{
+    padding: 1em;
+    background: none;
+    font-style: italic;
+    border:0;
     
+    -webkit-transition: all .2s linear;
+transition: all .2s linear;
+}
+
+.newsletter input[type="submit"]:hover{
+    transform: translateY(-2px);
 }
 
 

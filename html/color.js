@@ -7,3 +7,4 @@ let choice = styles[Math.floor(Math.random() * styles.length)];
 
 document.body.style.backgroundColor = choice[0];
 document.body.style.color = choice[1];
+document.getElementById("mc-embedded-subscribe").style.color = choice[1];
