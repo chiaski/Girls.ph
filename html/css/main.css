@@ -53,7 +53,9 @@ hr {
 }
 
 #landing {
-  height: 100vh;
+  padding: 3em 0;
+  box-sizing: border-box;
+  min-height: 100vh;
 }
 
 #landing p.intro {
