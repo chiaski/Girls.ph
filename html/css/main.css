@@ -123,6 +123,17 @@ hr {
   text-align: center;
 }
 
+#social {
+  margin: 1em;
+}
+#social a {
+  text-decoration: none;
+  color: inherit;
+}
+#social a:hover {
+  text-decoration: underline;
+}
+
 .faq {
   font-family: "Apple Garamond";
   text-align: center;

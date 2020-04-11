@@ -9,3 +9,4 @@ document.body.style.backgroundColor = choice[0];
 document.body.style.color = choice[1];
 document.getElementById("mc-embedded-subscribe").style.color = choice[1];
 document.getElementById("rec").style.color = choice[1];
+document.getElementById("social").style.color = choice[1];
