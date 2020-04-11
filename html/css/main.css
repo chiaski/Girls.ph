@@ -111,6 +111,12 @@ hr {
   text-align: center;
 }
 
+#landing a#rec {
+  text-decoration: none;
+  font-size: 1.6em;
+  color: #5a5a5a;
+}
+
 #love {
   margin: 7vh 1em 1em 1em;
   font-family: "Apple Garamond";
