@@ -59,7 +59,7 @@ hr {
 }
 
 #landing p.intro {
-  font-size: 2.6em;
+  font-size: 2.8em;
   line-height: 1em;
   width: 80%;
   max-width: 600px;
@@ -115,6 +115,16 @@ hr {
   text-decoration: none;
   font-size: 1.6em;
   color: #5a5a5a;
+  display: inline-block;
+  -webkit-transition: all 0.4s linear;
+  -moz-transition: all 0.4s linear;
+  -ms-transition: all 0.4s linear;
+  -o-transition: all 0.4s linear;
+  transition: all 0.4s linear;
+}
+
+#rec:hover {
+  transform: translateY(-2px);
 }
 
 #love {
@@ -127,6 +137,7 @@ hr {
   margin: 1em;
 }
 #social a {
+  padding: 0.5em;
   text-decoration: none;
   color: inherit;
 }
@@ -165,6 +176,10 @@ hr {
   max-width: 250px;
   display: inline-block;
   color: #000;
+  background: none;
+  border: 1px solid transparent;
+  color: #fff;
+  text-align: center;
 }
 
 .newsletter input[type=submit] {
